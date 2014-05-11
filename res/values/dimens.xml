@@ -4,5 +4,6 @@
     <dimen name="activity_horizontal_margin">1dp</dimen>
     <dimen name="activity_vertical_margin">1dp</dimen>
     <dimen name="button_change_location_textSize">14dp</dimen>
+    <dimen name="home_text_size">24dp</dimen>
 
 </resources>
