@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>All</item>
+        <item>Addiction</item>
+        <item>Adoption</item>
+        <item>Adult Learning</item>
+        <item>Advocacy and Human Rights</item>
+        <item>AIDS</item>
+        <item>Alzheimer</item>
+        <item>Animals</item>
+        <item>Art Centres</item>
+        <item>Art Councils</item>
+        <item>Arts and Culture</item>
+        <item>Autism</item>
+        <item>Camps</item>
+        <item>Cancer</item>
+        <item>Children and Youth</item>
+        <item>Community Services</item>
+        <item>Crime Prevention</item>
+        <item>Crisis Support</item>
+        <item>Culture Centres</item>
+        <item>Dance</item>
+        <item>Disabled</item>
+        <item>Disordered</item>
+        <item>Education and Literacy</item>
+        <item>Emergency and Safety</item>
+        <item>Employment and Careers</item>
+        <item>Environment</item>
+        <item>Family Services</item>
+        <item>Family Support</item>
+        <item>Festival</item>
+		<item>Film</item>
+		<item>First Nation and Aboriginal Peoples</item>
+		<item>Galleries</item>
+		<item>Health</item>
+		<item>Health and Medicine</item>
+		<item>Health Centres</item>
+		<item>History</item>
+		<item>Homeless and Housing</item>
+		<item>Hospice and Palliative Care</item>
+		<item>Housing</item>
+		<item>Hunger</item>
+		<item>Immigrants and Refugees</item>
+		<item>Independence</item>
+		<item>International</item>
+		<item>Justice and Legal</item>
+		<item>Leadership</item>
+		<item>LGBT</item>
+		<item>Libraries</item>
+		<item>Mental Health</item>
+		<item>Military</item>
+		<item>Missions</item>
+		<item>Museums and Archives</item>
+		<item>Music</item>
+		<item>Politics</item>
+		<item>Poverty</item>
+		<item>Pregnancy</item>
+		<item>Religion</item>
+		<item>Rescue and Adoption</item>
+		<item>Restorative Justice</item>
+		<item>Scholarships</item>
+		<item>Science and Technology</item>
+		<item>Search and Rescue</item>
+		<item>Seniors</item>
+		<item>Sports and Recreation</item>
+		<item>Theatre</item>
+		<item>Victim Services</item>
+		<item>Volunteer Centres</item>
+		<item>Wildlife</item>
+		<item>Women</item>
+    </string-array>
+    
+    <string-array name="provinces">
+        <item >Alberta</item>
+        <item >British Columbia</item>
+        <item >Manitoba</item>
+        <item >New Brunswick</item>
+        <item >Newfoundland</item>
+        <item >North York</item>
+        <item >Northwest Territories</item>
+        <item >Nova Scotia</item>
+        <item >Nunavut</item>
+        <item >Ontario</item>
+        <item >Prince Edward Island</item>
+        <item >Quebec</item>
+        <item >Saskatchewan</item>
+        <item >Yukon</item>
+    </string-array>
+    
+</resources>

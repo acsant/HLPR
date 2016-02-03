@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+    
+    <EditText
+        android:id="@+id/apt_unit_number"
+        android:maxLines="1"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="@string/apt_unit_number" />
+    
+    <EditText
+        android:id="@+id/street_name"
+        android:maxLines="1"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/user_location_edit_text_margin_top"
+        android:layout_width="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apt_unit_number"
+        android:hint="@string/street_name" />
+    
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="@dimen/user_location_edit_text_margin_top"
+         android:maxLines="1"
+         android:inputType="text"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/street_name"
+        android:hint="@string/city" />
+    
+    <Spinner
+        android:id="@+id/province_spinner"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="@dimen/user_location_edit_text_margin_top"
+        android:maxLines="1"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city"
+        android:hint="@string/province" />
+    
+    <EditText
+        android:id="@+id/postal_code"
+         android:maxLines="1"
+         android:inputType="textPostalAddress"
+         android:layout_marginTop="@dimen/user_location_edit_text_margin_top"
+        android:layout_width="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/province_spinner"
+        android:hint="@string/postal_code" />
+    
+    <TextView 
+        android:id="@+id/volunteer_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/categories"
+        android:layout_below="@+id/postal_code" 
+        android:paddingBottom="5dp"
+        android:clickable="false"
+        android:textSize="15sp" />
+    
+    <Spinner
+    	android:id="@+id/categories_dropdown"
+   	 	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="5dp"
+    	android:layout_below="@id/volunteer_options"
+    	android:entries="@array/categories"
+    	 />
+    
+    <Button
+        android:id="@+id/user_location_submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_volunteer_margins"
+        android:layout_marginLeft="@dimen/horizonatal_volunteer_margins"
+        android:layout_marginRight="@dimen/horizonatal_volunteer_margins"
+        android:text="@string/submit_button"
+        android:textSize="@dimen/user_location_submit_button_text_size"
+        android:onClick="submitUserLocation"
+        android:background="@color/DarkCyan"
+        android:layout_below="@+id/categories_dropdown"
+        android:layout_gravity="bottom"
+        android:textColor="@color/White"/>
+    
+    
+    
+</RelativeLayout>
+

@@ -1,4 +1,0 @@
-<resources>
-    <!-- Dimensions for a landscape screen for devices with 5" screen size -->
-    <dimen name="button_change_location_textSize">10dp</dimen>
-</resources>

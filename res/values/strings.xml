@@ -9,7 +9,22 @@
     <string name="title_activity_home">HELPR</string>
     <string name="welcome_message">\n\nWelcome to HELPR!\nAn innovation to help YOU.\n\n</string>
     <string name="button_volunteering_locations">Nearby Volunteering Locations</string>
-    <string name="button_charity">Charity</string>
-    <string name="button_workout_locations">Nearby Gyms</string>
+    <string name="title_category">Pick a Category</string>
+    <string name="button_volunteering_setlocation">Search Volunteer Opportunities</string>
+    <string name="seperate_text">To set a new Location:</string>
+    <string name="title_activity_user_location_preferences">Set New Location</string>
+    <string name="title_activity_start">HELPR</string>
+    <string name="start_logo">starting screen</string>
+
+    <!-- for the user location preferces activity -->
+    <string name="apt_unit_number">Apt./Unit Number</string>
+    <string name="street_name">Address</string>
+    <string name="city">City</string>
+    <string name="province">Province/Territory</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="submit_button">Submit</string>
+    <string name="categories">Volunteer Categories: </string>
+    <string name="user_preferences_range_prompt">Range</string>
+    <string name="title_activity_webview_info">Info Page</string>
 
 </resources>

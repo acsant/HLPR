@@ -1,4 +1,11 @@
 <resources>
     <!-- Dimensions for a landscape screen for devices with 5" screen size -->
     <dimen name="button_change_location_textSize">10dp</dimen>
+    <dimen name="volunteer_button_textSize">14dp</dimen>
+    <dimen name="nearby_volunteer_button">10dp</dimen>
+    <dimen name="top_volunteer_margins">5dp</dimen>
+    <dimen name="horizontal_volunteer_buttons">90dp</dimen> 
+    <dimen name="horizonatal_volunteer_margins">20dp</dimen>
+    <dimen name="activity_vertical_margin_home">1dp</dimen>
+    <dimen name="logo_top_margin">20dp</dimen>
 </resources>

@@ -1,0 +1,5 @@
+bin/
+gen/
+assets/
+.settings/
+.DS_Store
